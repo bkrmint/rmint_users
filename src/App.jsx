@@ -9,13 +9,13 @@ const App = () => {
   return (
     <main className="relative">
       <Nav />
-        {/* <section className=" bg-peach xl:padding-l wide:padding-r padding-b">
+        <section className=" bg-peach xl:padding-l wide:padding-r padding-b">
           <Hero />
-        </section> */}
-        <section className=" bg-light-peach ">
+        </section>
+        <section className=" bg-light-peach xl:padding-l wide:padding-r padding-b ">
           <Create />
         </section>
-        {/* <section className=" bg-peach xl:padding-l wide:padding-r padding-b">
+        <section className=" bg-peach xl:padding-l wide:padding-r padding-b">
           <Experience />
         </section>
         <section className=" bg-light-peach xl:padding-l wide:padding-r padding-b">
@@ -23,7 +23,7 @@ const App = () => {
         </section>
         <section className=" bg-black padding-x padding-t pb-8 pt-8">
           <Footer />
-        </section> */}
+        </section>
     </main>
   );
 };

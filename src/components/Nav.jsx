@@ -2,7 +2,7 @@ import { rmint_logo } from "../assets/images";
 
 const Nav = () => {
   return (
-    <header className="padding-x py-8 absolute z-10 w-full">
+    <header className="fixed padding-x py-8 z-10 w-full">
       <nav className="flex justify-center items-center max-container">
         <a href="/">
           <img 
