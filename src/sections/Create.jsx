@@ -27,7 +27,7 @@ const Create = () => {
         trigger: containerRef.current, // containerRef hook is used only here; rest is scrollRef
         pin: true,
         scrub: true,
-        markers: true,
+        // markers: true,
         end: `+=${container.offsetWidth}`,
         onEnter: ({progress, direction, isActive, container}) => console.log("onEnter: ", progress, direction, isActive, container ),
         onLeave: ({progress, direction, isActive, container}) => console.log("onLeave: ", progress, direction, isActive, container )

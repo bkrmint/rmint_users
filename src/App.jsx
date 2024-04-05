@@ -4,21 +4,22 @@ import Experience from "./sections/Experience";
 import Footer from "./sections/Footer";
 import Signup from "./sections/Signup";
 import Hero from "./sections/Hero";
+import Header from "./sections/Header";
 
 const App = () => {
   return (
     <main className="relative">
-      <Nav />
-        <section className=" bg-peach xl:padding-l wide:padding-r padding-b">
+      <Header />
+        <section className="padding-t bg-peach xl:padding-l wide:padding-r ">
           <Hero />
         </section>
-        <section className=" bg-light-peach xl:padding-l wide:padding-r padding-b ">
+        <section className="padding-t bg-light-peach xl:padding-l wide:padding-r ">
           <Create />
         </section>
-        <section className=" bg-peach xl:padding-l wide:padding-r padding-b">
+        <section className=" padding-t bg-peach xl:padding-l wide:padding-r">
           <Experience />
         </section>
-        <section className=" bg-light-peach xl:padding-l wide:padding-r padding-b">
+        <section className=" padding-t bg-light-peach xl:padding-l wide:padding-r">
           <Signup />
         </section>
         <section className=" bg-black padding-x padding-t pb-8 pt-8">

@@ -8,9 +8,11 @@ const Signup = () => {
           Are you ready<br/>for<br /><span className="font-kalam text-red">taste-a-thon!</span>
         </h1>
         <h2 className="mt-8 xl:text-3xl lg:text-3xl md:text-3xl max-sm:text-3xl text-gray font-publicsans font-bold text-center">
-          Join our restaurant waitlist:
+          Join the restaurant waitlist:
         </h2>
-        <Button />
+        <Button className="px-7 py-4 border font-publicsans text-lg leading-none bg-red rounded text-white border-red font-bold cursor-pointer">
+          Get in
+        </Button>
       </div>
     </section>
   )
