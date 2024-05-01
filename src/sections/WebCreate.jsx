@@ -47,25 +47,25 @@ const WebCreate = () => {
         </h1>
       </div>
       <div className="flex flex-col w-1/2 h-700 " ref={scrollRef}>
-        <div className=" h-screen flex justify-center items-center ">
+        <div className=" h-screen flex justify-start items-center ">
             <img src={sunday} alt="sunday" />
         </div>
-        <div className="h-screen flex justify-center items-center ">
+        <div className="h-screen flex justify-start items-center ">
             <img src={monday} alt="monday" />
         </div>
-        <div className=" h-screen flex justify-center items-center">
+        <div className=" h-screen flex justify-start items-center">
             <img src={tuesday} alt="tuesday" />
         </div>
-        <div className=" h-screen flex justify-center items-center ">
+        <div className=" h-screen flex justify-start items-center ">
             <img src={wednesday} alt="wednesday" />
         </div>
-        <div className=" h-screen flex justify-center items-center ">
+        <div className=" h-screen flex justify-start items-center ">
             <img src={thursday} alt="thursday" />
         </div>
-        <div className=" h-screen flex justify-center items-center ">
+        <div className=" h-screen flex justify-start items-center ">
             <img src={friday} alt="friday" />
         </div>
-        <div className=" h-screen flex justify-center items-center ">
+        <div className=" h-screen flex justify-start items-center ">
             <img src={saturday} alt="saturday" />
         </div>
       </div>
