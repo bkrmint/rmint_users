@@ -23,6 +23,9 @@ export default {
       width: {
         '700': '700%',
       },
+      height: {
+        '700': '700%',
+      },
       fontFamily: {
         publicsans: ['Publicsans', 'sans-serif'],
         kalam: ['Kalam', 'sans-serif'],
